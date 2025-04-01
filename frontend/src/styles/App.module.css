@@ -1,0 +1,78 @@
+/* App.module.css */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.button {
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.addButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.editButton {
+    background-color: #FFA500;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #FF3333;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/* Form */
+.form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f9f9f9;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
